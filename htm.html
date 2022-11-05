@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrous Fitness</title>
+</head>
+<body>
+    
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        /* background: url('main.jpg') no-repeat center center/cover; */
+        color: white;
+        font-family: 'Baloo 2', cursive;
+    }
+    .left{
+        display: inline-block;
+        float: left;
+    /* border:2px solid green; */
+    padding: 5px 5px;
+    /* margin: 5px 80px; */
+    
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 10px auto;
+    /* border: 2px solid brown; */
+}
+.right{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    /* border: 2px solid purple;/ */
+}
+.list{
+    display: inline-block;
+    justify-content:center ;
+    padding-top: 10px;
+}
+.mitem{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 100px 18px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: grey;
+    
+}
+
+.left img{
+    display: inline-block;
+    width: 180px;
+height: 114px;
+    /* margin: 0px auto; */
+}
+
+.left div{
+    font-size:x-large ;
+    /* display: inline-block; */
+}
+
+.btn{
+  /* border: 4px solid white; */
+  padding: 10px 8px;
+  color: white;
+border-radius: 8px;
+background-color: black;
+cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(38, 38, 0);
+}
+
+.container{
+    border: 4px solid white;
+   
+    padding: 35px 43px;
+    margin: 182px 10px;
+  
+width: 28%;
+border-radius: 8px;
+
+
+}
+.group input{
+    width: 400px;
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: large;
+}
+
+.container .btn{
+    margin-top: 20px;
+}
+.container h2{
+    width: 500px;
+    display: block;
+    margin: 10px auto;
+}
+
+.container .btn{
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+header::before{
+content: "";
+background: url('main.jpg') no-repeat center center/cover;
+    /* z-index: 5; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+</style>
+
+<header>
+
+    <div class="left">
+        <img src="myg.jpg"  alt="#">
+        <!-- Ferrous Fitness -->
+        <div>
+            Ferrous Fitness
+        </div>
+    </div>
+    <div class="mid">
+
+<ul>
+   
+    <li class="list"><a class="mitem" href="#">Home</a></li>
+    <li class="list"><a class="mitem" href="#">About Us</a></li>
+    <li class="list"><a class="mitem" href="#">Contact</a></li>
+    <li class="list"><a class="mitem" href="#">Trainers</a></li>
+    <!-- <li class="list"><a class="mitem" href="#">BMI-()</a></li> -->
+</ul>
+
+    </div>
+    <div class="right">
+        <button class="btn">Call US now</button>
+        <button class="btn">Email US</button>
+        
+    </div>
+</header>
+
+<!-- <br> -->
+<!-- <br> -->
+<div class="container">
+    <h2>Join the best gym of GURUGRAM</h2>
+    <form action="noaction.php">
+
+<div class="group">
+    <input type="text" name="" placeholder="Enter Your Name">
+</div>
+<div class="group">
+    <input type="text" name="" placeholder="Enter Your Age">
+</div>
+<div class="group">
+    <input type="text" name="" placeholder="Enter Your Gender">
+</div>
+<div class="group">
+    <input type="text" name="" placeholder="Enter Your Locality">
+</div>
+
+<button class="btn">SUBMIT</button>
+
+    </form>
+</div>
+
+</body>
+</html>
